@@ -26,7 +26,7 @@ export default function Cart() {
               <button className='btn' onClick={()=>{handleClick(prod.id)}}>remove</button>
           </div>
       }):'no item in cart'}
-      <p>total: ${total}</p>
+      <p>total: ${total.toFixed(2)}</p>
       {total===0?'':<button className="btn" onClick={handleClear}>clear cart</button>}
       
     </div>

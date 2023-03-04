@@ -16,7 +16,7 @@ export default function Navbar() {
 				<li>
 					<Link to="/cart">Cart</Link>
 				</li>
-				<p className='cart-price'>Cart: {cart.length}</p>
+				<p className='cart-price'>Cart Items : {cart.length}</p>
 			</ul>
 		</nav>
 	)

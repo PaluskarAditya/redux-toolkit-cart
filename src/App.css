@@ -37,12 +37,21 @@
   }
 } */
 
+body {
+  padding-top: 45px;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: rgb(57, 169, 57);
   padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20px;  
 }
 
 .ul-left, .ul-right {
@@ -132,4 +141,8 @@ h5, h4 {
   height: 80px;
   width: 80px;
   border-radius: 5px;
+}
+
+.btn:hover {
+  background: rgba(0, 0, 0, .65);
 }
